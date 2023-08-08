@@ -22,6 +22,18 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns .embed{
+  width:30%;
+  aspect-ratio: 1/1;
+  grid-gap:25px;
+}
+
 
 .embed{
   width: 100%;
@@ -33,6 +45,21 @@ section{
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.boxes{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+
+}
+
+.box{
+  background-color: #903434;
+  color: white;
+  font-size: 24px;
+  padding:20px;
+  border-radius:8px; 
 }
 
 header{
@@ -193,15 +220,15 @@ footer ul{
     <div class="container">
 
       <h2> Inspired by Africa</h2>
-      <div class="grid">
+      <div class="grid-3-columns">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wdVkE_o_2Zk?start=225" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-  <div class="grid">
+      
+  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vpsXvpQlKYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
-  </div>
+  
     
 
-    <div class="grid">
+ 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZxT1o4au4Ng?start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
@@ -237,7 +264,15 @@ footer ul{
 
   </section>
 
+  <div class="container">
+  <div class="boxes">
+    <div class="box">
+1
+    </div>
+  </div>
+</div>
   </main>
+
 
   <footer>
     <ul>
