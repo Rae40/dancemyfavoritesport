@@ -14,6 +14,42 @@
   
 }
 
+.intro{
+  
+       width:50%;
+      aspect-ratio: 16/9;
+  
+  
+  }
+
+  #paraintro{
+text-align: left;
+color: #ce474799;
+font-size: 30px;
+
+  }
+
+  .btn{
+display: block;  
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #FFFFFF;
+width: 300px;
+border-radius: 10px;
+text-decoration: none;
+padding: 20px;
+background: #ce474799;
+}
+
+.btn:hover{
+color:#ce474799 ;
+background: #f5c1c1cc;
+
+}
 
 
 .grid{
@@ -22,22 +58,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-columns{
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid-3-columns .embed{
-  width:30%;
-  aspect-ratio: 1/1;
-  grid-gap:25px;
-}
 
 
 .embed{
   width: 100%;
   aspect-ratio: 1/1;
+  
 }
 
 
@@ -59,8 +85,11 @@ section{
   color: white;
   font-size: 24px;
   padding:20px;
-  border-radius:8px; 
+  border-radius:8px;
+  text-transform: uppercase; 
 }
+
+
 
 header{
   background-image: linear-gradient(rgba(245, 193, 193, 0.8), rgba(206, 71, 71, 0.6))
@@ -108,20 +137,13 @@ text-transform: uppercase;
 text-align: center;
 }
 
-main h3{
-font-weight: 700;
-font-size: 40px;
-line-height: 1.5px;
-color: #272044;
-}
-
 
 main p{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #272044;
-opacity: 0.7;
+color: #ffff;
+
 }
 
 footer {
@@ -216,22 +238,45 @@ footer ul{
 
   <main>
 
+   <section class="intro">
+    <h2>Dance is...</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wdVkE_o_2Zk?start=225" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+
+</section>
+
+<p id="paraintro">
+  Dance is an art form that uses movement to communicate our ideas, feelings, and experiences.
+  Dance can be broken down into the following five elements: Body, Action, Space, Time, Energy.
+<br />
+<br />
+Body: Who Dances? The Dancer!
+Imagine a body moving with rhythmic purpose and motions, usually performing to music. That’s dance. Sounds simple, right? Dance critic Walter Terry put it best this way:
+<br />
+<br />
+<em>“No paints nor brushes, marbles nor chisels, pianos or violins are needed to make this art, for we are the stuff that dance is made of. It is born in our body, exists in our body and dies in our body. Dance, then, is the most personal of all the arts . . . it springs from the very breath of life.”
+ </em>
+</p>   
+
+   <a href="https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/do-you-wanna-dance/" class="btn" target="_blank">Read More Here</a>
+
+
     <section class="african">
       <div class="container">
 
    <h2> Inspired by Africa</h2>
     <div class="boxes">
-      <div class="box">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wdVkE_o_2Zk?start=225" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+      
   <div class="box">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vpsXvpQlKYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
-  </div>
+  
+</div>
     
 
  <div class="box">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZxT1o4au4Ng?start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <h4>Liturgical </h4>
+</div>
   </div>
 </div>
     
@@ -248,7 +293,14 @@ footer ul{
    <div class="boxes">
     <div class="box">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/78Vwv0vET08?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h4>Samba </h4>
     </div>
+
+    <div class="box">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BwjN0t7eFPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h4>Pachanga </h4>
+    </div>
+   </div>
     </div>
   
      </section>
@@ -257,19 +309,20 @@ footer ul{
 
   <section class="eastern">
   
-  <h2> The Cultures of the East</h2>
+  <h2>Cultures of the East</h2>
   <div class="boxes">
     <div class="box">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gCP035lfW-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   <p>
-    Belly dance 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gCP035lfW-U?start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<h4>Belly dance  </h4>
+<p>
+    
    </p>
     </div>
 
     <div class="box">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G0duAB7X0ns?start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-
+<h4> Garba </h4>
     </div>
   </div>
 </div>
