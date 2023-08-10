@@ -22,6 +22,11 @@
   
   }
 
+  #intro2{
+    background-color: #ffeced;
+    padding: 40px;
+  }
+
   #paraintro{
 text-align: left;
 color: #ce474799;
@@ -52,14 +57,6 @@ background: #f5c1c1cc;
 }
 
 
-.grid{
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-}
-
-
-
 .embed{
   width: 100%;
   aspect-ratio: 1/1;
@@ -83,12 +80,21 @@ section{
 .box{
   background-color: #903434;
   color: white;
-  font-size: 24px;
-  padding:20px;
+  font-size: 30px;
+  padding: 20px ;
   border-radius:8px;
-  text-transform: uppercase; 
+  
 }
 
+.box h4{
+  text-transform: uppercase; 
+  text-align: center;
+}
+
+.box p{
+  padding: 15px 8px;
+  
+}
 
 
 header{
@@ -153,7 +159,7 @@ footer {
   background-size: cover;
   color: white;
   text-align: left;
-  padding: 90px 30px;
+  padding: 45px 40px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -237,13 +243,13 @@ footer ul{
 
 
   <main>
-
-   <section class="intro">
+    <div id="intro2">
+<section class="intro">
     <h2>Dance is...</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wdVkE_o_2Zk?start=225" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  
+ </section>
 
-</section>
+
 
 <p id="paraintro">
   Dance is an art form that uses movement to communicate our ideas, feelings, and experiences.
@@ -259,7 +265,7 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
 </p>   
 
    <a href="https://www.kennedy-center.org/education/resources-for-educators/classroom-resources/media-and-interactives/media/dance/do-you-wanna-dance/" class="btn" target="_blank">Read More Here</a>
-
+</div>
 
     <section class="african">
       <div class="container">
@@ -269,13 +275,23 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
       
   <div class="box">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vpsXvpQlKYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
-  
+  <h4>African diasporic dance</h4>
+  <p>
+    Denotes those dances and dance traditions Africans brought with them and passed on to their descendants during the great "scattering," or diaspora. 
+    <br />
+   <br /> Beginning with the slave trade to Portugal in the fifteenth century and lasting well into the nineteenth century, between ten and thirteen million Africans were enslaved and displaced throughout the Americas. With them came African worldviews that meshed the material and spiritual worlds and incorporated music and dance into life's every aspect.
+  </p>
 </div>
     
 
  <div class="box">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZxT1o4au4Ng?start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <h4>Liturgical </h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v9yLVmG9QXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<h4>Gombey </h4>
+<p>
+  Originated from west Africa, the Gombey dance is a unique art performance. This west African dance has several elements, like, colors, intricate masquerade, drumming, and loads of dancing.
+<br />
+<br />Moreover, this traditional African dance reflects the island's blend of African, Caribbean, and British cultures.
+</p>
 </div>
   </div>
 </div>
@@ -294,11 +310,23 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
     <div class="box">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/78Vwv0vET08?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h4>Samba </h4>
+    <p>
+      A musical genre and dance that originated in Brazil in the early 20th century. 
+      <br />
+      <br />
+      It is known for its incredibly fast footwork and hip movement, and is a staple dance in the festival of Carnaval in Brazil.
+    </p>
     </div>
 
     <div class="box">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/BwjN0t7eFPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h4>Pachanga </h4>
+    <p>
+      A dance style and music genre that originated in Cuba in the 1950s.
+<br />
+<br />
+Pachanga is characterized by a bouncing movement which comes from the bending and straightening of the knees, and also incorporates gliding and sliding movements.
+    </p>
     </div>
    </div>
     </div>
@@ -315,7 +343,10 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gCP035lfW-U?start=25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 <h4>Belly dance  </h4>
 <p>
-    
+    Middle Eastern and Belly Dance forms focus on the presence of the dancer as self-contained performer. 
+    <br />
+    <br /> 
+    Exquisite, graceful movements and a sense of total self-awareness are major factors in the popularity of Middle Eastern dance as a form of exercise, therapy, and creative enjoyment.
    </p>
     </div>
 
@@ -323,10 +354,20 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G0duAB7X0ns?start=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
 <h4> Garba </h4>
+<p>
+  Garba comes from Gujarat which is a traditional dance form dedicated to Goddess Durga. 
+  <br />
+  <br /> 
+    It is performed in a couple on the typical Gujarati music, and the sticks are used to perform this art form.
+</p>
     </div>
   </div>
 </div>
 
+  </section>
+
+  <section>
+    
   </section>
 
 
@@ -338,7 +379,12 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
     <ul>
       <h4>Different Types of Dance</h4>
       <li><a href="http://www.dancefacts.net/dance-types/types-of-dances/" target="_blank">Types of Dance</a></li>
-      <li></li>
+      <li><a href="https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/dance-diasporic#:~:text=African%20diasporic%20dance%20denotes%20those,%22scattering%2C%22%20or%20diaspora." target="_blank">Dance, Diasporic</a></li>
+      <li><a href="https://www.superprof.com/blog/various-african-dance-styles/" target="_blank">What Are The Types of African Dance</a></li>
+      <li><a href="https://www.salsavida.com/articles/latin-dances/" target="_blank">Latin Dances List: 21 Popular Styles</a></li>
+      <li><a href="https://www.lotusmusicanddance.org/middle-eastern-dance" target="_blank">Middle Eastern Dance</a></li>
+      <li><a href="https://www.holidify.com/pages/dances-of-india-272.html" target="_blank">15 Dances of India</a></li>
+    
     </ul>
 
     <ul>
@@ -351,7 +397,7 @@ Imagine a body moving with rhythmic purpose and motions, usually performing to m
    
     <ul>
     <h4>About this Website</h4>
-    <p>I created this page to further enhance my codig skills as a SheCodes graduate.</p>
+    <p>I created this page to further enhance my coding skills as a SheCodes graduate.</p>
 
     <p>Coded with love by <a href="https://github.com/Rae40/dancemyfavoritesport" target="_blank">Renee Christian</a></p>
   </footer>
